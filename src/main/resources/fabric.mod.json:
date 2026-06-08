@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "daliscript",
+  "version": "1.0.0",
+  "name": "DaliScript",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dali.daliscript.DaliScriptMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
